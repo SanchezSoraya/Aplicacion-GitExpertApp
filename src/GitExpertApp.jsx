@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AddCategory } from "./components/AddCategory";
 
 export const GitExpertApp = () => {
   
@@ -18,6 +19,7 @@ export const GitExpertApp = () => {
       <h1>GitExpertApp</h1>
 
       {/* Input */}
+      <AddCategory/>
 
       {/* Listado de Git */}
       <button onClick={ onAddCategory }>Agregar</button>
