@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { AddCategory } from "./components/AddCategory";
-import { GifGrid } from "./components/GifGrid";
+import { AddCategory, GifGrid } from "./components";
+
 
 export const GitExpertApp = () => {
   
-  //No ponere condicionalmente los hooks 
+  //No ponerle condicionalmente los hooks 
   const [categories, setcategories] = useState([ 'One Punch' ]);
 
  const onAddCategory = ( newCategory ) =>{
