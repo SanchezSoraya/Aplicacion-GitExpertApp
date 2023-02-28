@@ -1,5 +1,3 @@
-
-
-export * from './AddCategory'
-export * from './GifGrid'
-export * from './GitItem'
+export {AddCategory} from './AddCategory';
+export {GifGrid} from './GifGrid';
+export {GitItem} from './GitItem';

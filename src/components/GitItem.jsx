@@ -3,7 +3,7 @@ import  PropTypes  from "prop-types"
 
 
 export const GitItem = ({title, url, id}) => {
-
+  
   
   return (
     <div className="card">
